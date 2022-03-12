@@ -3,6 +3,7 @@
  * @param {number} target
  * @return {number}
  */
+/** i am not confident its actually O(log n) */
 var search = function (nums, target) {
   var i = -1;
   var t = -1;
